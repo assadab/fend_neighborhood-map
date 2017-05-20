@@ -1,0 +1,49 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.btn-group{
+	padding: 5px;
+}
+.col-fill{
+	height: 100%;
+	min-height: 100%;
+}
+.fill{
+	height: 100%;
+	min-height: 100%;
+}
+.guide-title{
+	font-size: 26px;
+}
+.list-item{
+	color: #000;
+    font-family: : Arial;
+    font-size: 16px;
+    padding: 1px;
+}
+.list-item:hover{
+	color:#4286f4;
+	text-decoration: none;
+	font-weight: bold;
+}
+.navbar>.container{
+	padding:10px;
+}
+.row{
+	margin-top:-20px;
+}
+.search-bar{
+	padding: 10px 50px 10px 50px;
+	margin-top: 4px;
+
+}

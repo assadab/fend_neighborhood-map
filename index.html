@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="with=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Tampa Going Out Guide</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+				<a>
+					<span class="guide-title"><span class="glyphicon glyphicon-cutlery"></span> Tampa Going Out Guide</span>
+				</a>
+				<input class="search-bar pull-right" type="input" name="search" data-bind="textInput:searchQuery" placeholder="Search Place">
+
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid fill">
+			<div class="row fill">
+					<div class="col-md-3 col-fill">
+						<!-- Type Filters
+						<div class="btn-group btn-group">
+							<button type="button" class="btn btn-primary">Bar</button>
+							<button type="button" class="btn btn-primary">Coffeshop</button>
+							<button type="button" class="btn btn-primary">Restaurant</button>
+						</div>
+						-->
+						
+						<div>
+								<ul data-bind="foreach:filteredLocations">
+									<a class="list-item" href="#">
+										<li data-bind="text:name,click: $parent.selectedItem"></li>
+									</a>
+								</ul>
+							</a>
+						</div>
+						
+					</div>
+					<div class="col-md-9 col-fill" id="map">	
+					</div>
+			</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="lib/knockout-3.4.0.js"></script>
+	<script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyDdLf9wv-WBC7uw-LkQ08M3wXQvgZ9WW84&libraries=geometry&v=3&callback=initMap" onerror="mapsInitError()">
+    </script>
+    <script src="js/model.js"></script>
+	<script src="js/viewmodel.js"></script>-->
+
+</body>
+</html>
